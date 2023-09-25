@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image:url(./image/cloud.jpg);
+    background-size: cover;
+    left: 0;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+header hgroup {
+    margin-top: -72px;
+    text-align: center;
+}
+
+
+header h1 {
+    color: black;
+    font-family: 'Single Day', cursive;
+}
+
+header h2 {
+    color: black;
+    font-family: 'Single Day', cursive;
+}
+
+header h3 {
+    color: black;
+}
+
+header ul {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    position: sticky;
+    margin-top: -30px;
+}
+
+header nav{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding-top: 30px;    
+    margin-top: -22px;
+}
+
+header nav a:hover{
+    background-color: white;
+    color: blue;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+main img {
+    width: 100%;
+    height: 600px;
+}
+
+main a {
+    float: right;    
+    top: 150px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#intro h2{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 30px;
+}
+
+#intro img{
+    float: left;
+    margin-right: 30px;
+    width: 280px;
+    height: 380px;
+}
+
+footer ul{
+    text-align: center;
+    font-size: 10pt;   
+    margin-bottom: -100pt; 
+}
+
